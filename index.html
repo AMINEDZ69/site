@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENSTA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image:url("https://cdn.britannica.com/84/203584-050-57D326E5/speed-internet-technology-background.jpg");
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+            font-weight: bold;
+            background-color: #003366;
+            text-align: center;
+            border-radius: 20px;
+        }
+        nav a:hover {
+            background-color: #0059b3;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background: rgb(237, 237, 237);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            background-color: #003366;
+            color: white;
+            bottom: 0;
+            padding: 10px;
+            margin-top: 250px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .content {
+            display: none;
+        }
+        .active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://ensta.edu.dz/wp-content/uploads/2023/11/1LOGO3.png" alt="ensta logo" style="width: 50px ;display: inline-block;">
+        <h1 style="display: inline-block;padding: 10px;">ENSTA</h1>
+        <h3>National School of Advanced Technologies</h3>
+        <p>Innovation starts here — where technology and talent unite</p>
+    </header>
+
+    <nav >
+        <a href="#" onclick="showSection('home')">Home</a>
+        <a href="#" onclick="showSection('about')">About Us</a>
+        <a href="#" onclick="showSection('activities')">Activities</a>
+        <a href="#" onclick="showSection('website')">how to build a website</a>
+        <a href="#" onclick="showSection('contact')">Contact</a>
+    </nav>
+
+    <section style="border-radius: 20px; padding: 10px;">
+        <div id="home" class="content active">
+            <h2>Welcome to ENSTA</h2>
+            <hr>
+            <p style="padding: 10px;">Welcome to the National School of Advanced Technologies — where innovation meets excellence, and students shape the future of technology,Empowering the next generation of tech innovators to design, create, and lead in a connected world,At the National School of Advanced Technologies, we turn ideas into intelligent systems — and students into engineers of tomorrow</p>
+        </div>
+
+        <div id="about" class="content">
+            <h2>About Us</h2><hr>
+            <p style="font-size: 120%;font-weight:bold ;">Creation of the school</p><hr>
+            <p style="padding: 10px;">
+The National School of Advanced Technologies has just been created under Executive Decree No. 22-314 of September 12, 2022 published in Official Journal No. 78 .
+
+In the same issue of the Official Journal, Executive Decree No. 22-398 of November 21, 2022 is published, dissolving the National Higher School of Technology and the Higher School of Applied Sciences Algiers  and transferring their assets, rights, obligations, personnel and resources to the National Higher School of Advanced Technologies.
+
+The School is a public establishment of a scientific, cultural and professional nature, with legal personality and financial autonomy.
+
+The school's mission is to provide higher education, scientific research and technological development in the various specialties of advanced technologies, particularly in industrial engineering, transport engineering, automation, electronics, telecommunications, mechanical engineering, electrical engineering and process engineering.
+
+From the entrance to the university for the year 2023-2024, In addition to the specialization of the school in the field of Sciences and Technologies , another field has been added, which is the field of Math Computer Science MI , very much in demand in the economic and practical fields.
+
+The school is a center of excellence for higher education that guarantees highly qualified training for the benefit of the various sectors of the country's economic and commercial activity.</p>
+        <p style="font-size: 120%;font-weight:bold ;">School missions</p> <hr>
+    <p style="padding: 10px;">As part of the public higher education service, the school provides higher education missions and missions of scientific research, innovation, monitoring, transfer and technological development. <br>to ensure the training of highly qualified executives;</p>
+<ul><li>to provide preparatory training for students for access to second cycle studies;</li>
+<li>to introduce students to research methods and to provide training through and for research;</li>
+<li>to contribute to the production and dissemination of knowledge and skills, to their acquisition and development;</li>
+<li>to introduce the dimension of innovation, technology transfer and entrepreneurship in both training and research;</li>
+<li>to introduce students to innovation and entrepreneurship;</li>
+<li>to provide training for the teaching profession for the benefit of the national education sector. In addition, it can provide continuing education, development and retraining activities for executives in socioeconomic sectors.
+In terms of scientific research and technological development, the school's fundamental mission in its field(s) of vocation is:</li>
+<li>to contribute to the national effort in scientific research and technological development;</li>
+<li>to promote the development of science and technology;</li>
+<li>to promote the development of science and technology;</li>
+<li>to contribute to the development of fundamental and applied research within national public and private companies, through the encouragement of innovation;</li>
+<li>to contribute to the promotion of the results of scientific research and the dissemination of scientific and technical information;</li>
+<li>to participate within the international scientific community in the exchange of knowledge and its enrichment;</li>
+<li>to promote scientific production and encourage emulation.</li></ul>
+<h4 style="display: inline-block;">for more informations about the school visit:</h4>
+<a target="_blank" href="https://ensta.edu.dz/">ensta.edu.dz</a></div>
+
+        <div id="activities" class="content">
+            <h2>Our Activities</h2><hr>
+            <ul>
+                <li>💻 Weekly coding workshops</li>
+                <li>🤖 Robotics and AI projects</li>
+                <li>🚀 Annual hackathon events</li>
+                <li>🎤 Guest lectures from industry professionals</li>
+            </ul>
+        </div>
+
+        <div id="contact" class="content">
+            <h2>Contact Us</h2><hr>
+            <p>📧 Email: contact@ensta.edu.dz</p>
+            <p>📞 phone: +213 (0)23 79 71 18 
+                / +213 (0)44 12 11 03</p>
+            <h2>Contact the designer</h2> <hr>
+            <p>📧 Email: ba.attoui@ensta.edu.dz</p>
+        </div>
+        <div id="website" class="content">
+            <h2>🧠 Advices on Designing a Website</h2> <hr>
+            <h3>✅ Things to Do:</h3><hr>
+            <ol>
+                <li>Plan Before You Start – Sketch a layout or flowchart to organize your pages.</li>
+                <li>Keep It Simple – Use clear navigation and avoid clutter.</li>
+                <li>Use Consistent Design – Stick to one color palette, font style, and layout.</li>
+                <li>Make It Responsive – Ensure it looks good on phones, tablets, and computers.</li>
+                <li>Add Useful Content – Include only information visitors will find valuable.</li>
+                <li>Optimize Images – Use compressed images to make your site load faster.</li>
+                <li>est the Website – Check all links, forms, and menus before publishing.</li>
+                <li>Ensure Accessibility – Use readable fonts, alt text for images, and clear contrast.</li>
+            </ol>
+            <h3>❌ Things Not to Do:</h3><hr>
+            <ol>
+                <li>Don’t overload pages with too much text or animations.</li>
+                <li>Don’t use clashing colors or unreadable fonts.</li>
+                <li>Don’t ignore mobile users — most people browse on phones.</li>
+                <li>Don’t forget to proofread your content for spelling and grammar.</li>
+                <li>Don’t forget to update your site regularly.</li>
+            </ol>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ATTOUI AMINE. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showSection(id) {
+            const sections = document.querySelectorAll('.content');
+            sections.forEach(sec => sec.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+
+</body>
+</html>
